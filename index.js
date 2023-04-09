@@ -67,7 +67,7 @@ server.listen(8080, async () => {
     await connection;
     console.log("DB Connected successfully");
   } catch (error) {
-    console.log("Somthing wen wrong :", error);
+    console.log("Somthing went wrong :", error);
   }
   console.log("Server is running");
 });
