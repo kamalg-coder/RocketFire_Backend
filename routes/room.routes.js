@@ -1,6 +1,6 @@
-const express = require("express");
-const { RoomModel } = require("../Model/Room.Model");
 
+const { RoomModel } = require("../Model/Room.Model");
+const express=require("express");
 const roomRouter = express.Router();
 
 roomRouter.get("/", async (req, res) => {
